@@ -1,0 +1,481 @@
+body{
+    margin:0;
+    padding: 0;
+    background: white;
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 0 250px;
+    list-style:none;
+}
+nav{
+    width: 100%;
+    background:white;
+}
+li{
+    float: left;
+}
+li a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial;
+    color:black;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background: gray;
+}
+.logo img{
+    height: 55px;
+    width: 110px;
+    position:absolute;
+    margin-top:5px;
+    margin-left: 10px;
+}
+
+.sites img{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+}
+#img{
+    height: 30px;
+    width:30px;
+}
+.section h1{
+    color:black;
+}
+.wrap{
+    width: 100%;
+    overflow: auto;
+    font-family: arial;
+    line-height: 60px;
+}
+
+.content{
+    background: url(pic.jpg) no-repeat;
+    background-position: right;
+    background-size: 500px 500px;
+    font-family:Calibri;
+    font-size: 30px;
+    width:80%;
+    margin: auto;
+    overflow:hidden;
+    margin-top:4%
+
+
+}
+#im{
+    height: 30px;
+    width: 50px;
+}
+.content form input[type="email"]{
+    width:335px;
+    height:40px;
+}
+
+#sub{
+    background-color: rgb(89, 89, 235);
+    height: 40px;
+    width:345px;
+    font-family: arial bold;
+    color: white;
+    border: rgb(89, 89, 235);
+}
+
+showcase {
+    background: fixed;
+    background-color: lightgray;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    line-height: 30px;
+    
+}  
+showcase h3{
+    padding-top: 30px;
+    font-size: 30px;
+}
+showcase h1{
+
+    font-size: 50px;
+}
+
+showcase p{
+    font-size:20px ;
+}
+.partner{
+    display: flex;
+}
+.partner img{
+    display: flex;;
+    height: 150px;
+    width:200px;
+    padding:30px;
+    border-radius: 20px;
+    border:2px rgb(130, 35, 35);
+    margin: auto;
+    
+}
+.third{
+    background: fixed;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align:center;
+    background-position: right;
+    background-size: 500px 500px;
+    font-family:Calibri;
+    font-size: 30px;
+    width:80%;
+    margin: auto;
+    overflow:hidden;
+    line-height: 30px;
+    
+}
+
+#fifty{
+    width: 90%;
+    height: 500px;
+}
+
+.fourth{
+    background: fixed;
+    background-position: 100%;
+    background-color: lightgray;
+    text-align: left;
+    margin-top: 30px;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.fourth h6{
+    padding-left: 60px;
+}
+.fourth h2{
+    padding-left: 60px;
+}
+.fourth h4{
+    padding-left: 60px;
+}
+
+.service{
+    display: flex;
+    text-align: center;
+}
+.service img{
+    height: 200px;
+    width:300px;
+    border:none;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;  
+}
+
+.fifth{
+    margin-top: 30px;
+    text-align: center;
+    background: fixed;
+    background-repeat: no-repeat;
+    background-size: 300px 100%;
+    background-color: rgb(105, 112, 249);
+    color: white;
+    line-height: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.features{
+    padding: 0.7rem 2rem;
+    margin-right: 2rem;
+    font-size :1.2rem;
+}
+
+.choice img{
+    float: left;
+    width: 700px;
+    height: 500px;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+.para{
+    text-align: justify;
+    padding-top: 60px;
+    font-size: 30px;
+    
+}
+.fi{
+    margin-bottom: -200px;
+}
+#arr{
+    float: right;
+    padding-right: 425px;
+    position: relative;
+    bottom: 66px;
+    height: 30px;
+    width:30px;
+}
+.gene{
+    padding-top: 50px;
+    padding-left: 200px;
+}
+#circle{
+    display: inline;
+    float: right;
+    bottom: 620px;
+    position: relative;
+    height: 630px;
+    width: 700px;
+
+}
+.blue{
+    width: 50px;
+    height:50px;
+    position: relative;
+    float: left;
+    left: -2px;
+}
+.lorem{
+    padding-left: 50px;
+}
+
+.let{
+    padding: 0.7rem 2rem;
+    margin-right: 2rem;
+    font-size :1.2rem;
+    color: white;
+    background-color: black;
+}
+.play{
+    background: fixed;
+    background-position:100%;
+    background-color: lightgrey;
+    text-align: left;
+    overflow: hidden;
+    width: 100%;
+    margin-top:-200px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+#played{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    padding-left: 650px;
+    top: 68px;
+}
+
+#h5{
+    text-align: center;
+    padding-left: 50px;
+    font-size: 15px;
+}
+span{
+    color: rgb(85, 202, 237);
+}
+.play div h2{
+    padding-top: 30px;
+    text-align: center;
+    
+}
+#h4{
+    padding-left: 700px;
+}
+#co{
+    color: rgb(92, 92, 90);
+}
+.sixth{
+    background: fixed;
+    background-position: 100%;
+    text-align: left;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+.sixth h2{
+    text-align: center;
+    font-size: 35px;
+}
+.sixth div p{
+    text-align: center;
+}
+#bu{
+    font-size: 20px;
+}
+#about{
+    color: rgb(121, 121, 237);
+}
+#smile{
+    position:relative;
+    height:50px;
+    width: 50px;
+    padding-left: 765px;
+}
+.rating{
+    display: flex;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.rating img{
+    padding-left: 200px;
+    padding-right:20px;
+    position:relative;
+    height: 50px;
+    width: 50px;
+
+}
+.rating div p{
+    padding-left: 200px;
+    padding-right:20px;
+    
+}
+.rupee{
+    padding-left: 200px;
+    color: royalblue;
+    padding-right: 20px;
+}
+.seven{
+    background: 100%;
+    background-color: lightgrey;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    display: flex;
+}
+.rio{
+    padding-left: 215px;
+}
+.current{
+    padding-left: 90px;
+}
+.phone{
+    padding-left:170px;
+}
+
+.formwrap{
+    padding-top: 15px;
+}
+.formwrap button{
+    border: none;
+    height: 40px;
+    width:420px;
+    color: white;
+    background-color: royalblue;
+}
+.website{
+    padding-left: 170px;
+}
+.form{
+    padding: 10px;
+    padding-left: 35px;
+    margin: 100px auto 20px auto;
+    background-color: transparent;
+    background-position: right;
+    padding-bottom: 50px;
+    width: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+input[type="text"]{
+    width: 200px;
+}
+input[type="tel"]{
+    width: 200px;
+}
+input[type="url"]{
+    width: 200px;
+}
+input[type="email"]{
+    width: 200px;
+}
+select{
+    height: 40px;
+    width:420px;
+}
+.choose{
+    padding-top: 120px;
+}
+.choose h3{
+    padding-top: 15px;
+}
+.eight{
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 90px;
+}
+.eight img{
+    width:100px;
+    height: 50px;
+}
+footer {
+    padding-top: 10px;
+    background-color: black;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    font-size: 13px;
+    line-height: 20px;
+}
+footer img{
+    padding-top: 30px;
+    height: 70px;
+    width: 90px;
+}
+.row{
+    margin: auto;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+footer form{
+    padding-top: 10px;
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+footer form input[type="email"]{
+    height: 40px;
+}
+footer span{
+    color: blue;
+}
+footer button{
+    height: 49px;
+    width:50px;
+    color: white;
+    background-color: royalblue;
+}
+.col{
+    font-size: 20px;
+    flex-basis: 10%;
+    padding: 10px;
+}
+.icon .fa-brands{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    margin-right: 20px;
+    padding-right: 10px;
+    
+}
+hr{
+    width: 65%;
+    border-bottom: 1 px solid white;
+    margin:20px auto;
+}
+.copyright{
+    text-align: center;
+    font-size: 20px;
+}
